@@ -25,9 +25,9 @@ Feature:
 	1. Enable Android device to search files over Guntella 2 network.
 	2. Enalbe Android device to download files from Gnutella 2 network.
 	3. Provide an JNI interface to basic function (the JNI code files are sl.hpp and sl.cpp), such as
-		a. Issue, Pause, Stop a research
+		a. Issue, pause, stop a search
 		b. Retreive the search result
-		c. Issue, Pause, Stop a download
+		c. Issue, pause, stop a download
 	
 Plan for development:
 	1. File checksum are bounded to Big Endian, should have problems when using Little Endian CPU.
